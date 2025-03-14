@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="devTinder@cluster0.cv99h.mongodb.net">
+  <database-model serializer="dbm" dbms="MONGO" family-id="MONGO" format-version="4.53">
+    <root id="1">
+      <ServerVersion>8.0.5</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="admin"/>
+    <schema id="3" parent="1" name="devTinder">
+      <Current>1</Current>
+      <LastIntrospectionLocalTimestamp>2025-03-10.23:10:00</LastIntrospectionLocalTimestamp>
+    </schema>
+    <schema id="4" parent="1" name="local"/>
+    <table id="5" parent="3" name="users"/>
+    <column id="6" parent="5" name="_id">
+      <Position>1</Position>
+      <StoredType>ObjectId|12s</StoredType>
+    </column>
+    <column id="7" parent="5" name="__v">
+      <Position>2</Position>
+      <StoredType>Int32|4s</StoredType>
+    </column>
+    <column id="8" parent="5" name="age">
+      <Position>3</Position>
+      <StoredType>Int32|4s</StoredType>
+    </column>
+    <column id="9" parent="5" name="emailId">
+      <Position>4</Position>
+      <StoredType>String|12s</StoredType>
+    </column>
+    <column id="10" parent="5" name="firstName">
+      <Position>5</Position>
+      <StoredType>String|12s</StoredType>
+    </column>
+    <column id="11" parent="5" name="gender">
+      <Position>6</Position>
+      <StoredType>String|12s</StoredType>
+    </column>
+    <column id="12" parent="5" name="lastName">
+      <Position>7</Position>
+      <StoredType>String|12s</StoredType>
+    </column>
+    <column id="13" parent="5" name="password">
+      <Position>8</Position>
+      <StoredType>String|12s</StoredType>
+    </column>
+    <index id="14" parent="5" name="_id_">
+      <ColNames>_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+  </database-model>
+</dataSource>

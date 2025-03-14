@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "tinder for devs.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "type": "module",
-    "dev": "nodemon src/app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/app.js"
   },
   "keywords": [
     "nodejs"
@@ -14,9 +13,14 @@
   "author": "umangjit singh",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.2"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.9"
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.12.1",
+    "nodemon": "^3.1.9",
+    "validator": "^13.12.0"
   }
 }
